@@ -13,7 +13,7 @@ export default function FirstPostPage() {
       <p className='p-[4px] font-semibold flex justify-center rounded-full items-center my-10 max-w-fit m-auto text-four border-2 border-four bg-primary px-2 uppercase text-sm'>think it</p>
         <article className="prose max-w-none min-h-screen p-4">
           <h1 className="text-3xl text-five md:text-center md:text-4xl font-bold mb-4">{post?.title}</h1>
-          <div className='flex gap-2 md:gap-4  md:pb-2 tracking-wide text-xs md:text-sm font-semibold uppercase py-4 justify-center'>
+          <div className='flex gap-2 md:gap-4  md:pb-4 tracking-wide text-xs md:text-sm font-semibold uppercase py-4 justify-center'>
 
             <span className='opacity-50'>by</span>
             <span className='text-four'>
